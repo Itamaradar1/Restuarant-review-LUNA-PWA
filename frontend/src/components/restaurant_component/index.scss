@@ -1,0 +1,54 @@
+.rest-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 271px;
+    height: 410px;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+
+    :hover{
+        cursor: pointer;
+    }
+
+    .rest-header {
+        // height: auto;
+        // background-color: aqua;
+        border-top: 8px solid var(--color-orange);
+
+        .rest-name {
+            font-size: 20px;
+            padding: 6px 13px 6px 13px;
+        }
+
+        .rest-address {
+            font-size: 18px;
+            padding: 0px 13px;
+        }
+
+        .rest-rating {
+            padding: 12px 13px;
+            display: flex;
+            justify-content: space-between;
+
+
+            .rest-stars {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    height: 25px;
+                }
+            }
+
+            .rest-comments {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .rest-photo {
+        width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+.c03-user-data {
+    box-sizing: border-box;
+    width: 233px;
+    border: 1px solid lightgrey;
+
+    .c03-user-photo {
+        width: 231px;
+    }
+
+    .c03-h1 {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 25px 0;
+    }
+
+    .c03-items {
+        width: 100%;
+        // text-align: center;
+
+        .c03-item {
+            border-top: 2px solid #979797;
+            border-left: 4px solid #97979700;
+            height: 46px;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+
+            .c03-left {
+                width: 68px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .c03-image {
+                    height: 30px;
+                    padding-right: 15px;
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .c03-item-active {
+            border-top: 2px solid #979797;
+            border-left: 4px solid var(--color-orange);
+            background-color: rgb(209, 209, 209);
+            height: 46px;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+
+            .c03-left {
+                width: 68px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .c03-image {
+                    height: 30px;
+                    padding-right: 15px;
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+
+    }
+}

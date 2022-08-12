@@ -1,0 +1,73 @@
+.c08-edit-component {
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+    color: black;
+    font-family: Helvetica, sans-serif;
+
+    .c08-input-field-small {
+        
+        .c08-edit-input-label {
+            font-size: 20px;
+            padding-bottom: 10px;
+            color: #838383;
+
+        }
+    
+        .c08-input-text-50 {
+            width: 50%;
+            height: 52px;
+            border-radius: 3px;
+            border: 1px solid #EBEBEB;
+            outline: none;
+            font-size: 20px;
+            padding: 10px;
+            color: #838383;
+        }
+
+        .c08-input-text-100 {
+            width: 100%;
+            height: 52px;
+            border-radius: 3px;
+            border: 1px solid #EBEBEB;
+            outline: none;
+            font-size: 20px;
+            padding: 10px;
+            color: #838383;
+        }
+
+        .c08-input-textarea-100 {
+            width: 100%;
+            height: 75px;
+            border-radius: 3px;
+            border: 1px solid #EBEBEB;
+            outline: none;
+            font-size: 20px;
+            padding: 10px;
+            color: #838383;
+            resize: none;
+        }
+    
+        .c08-validation-error {
+            height: 25px;
+            color: #B00000;
+    
+        }
+    }
+
+    .c08-footer {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .c08-link-delete {
+            color: #BA0000;
+            
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}

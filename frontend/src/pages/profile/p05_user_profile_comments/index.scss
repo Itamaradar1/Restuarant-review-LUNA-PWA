@@ -1,0 +1,106 @@
+.p05-user-profile {
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F2F2;
+
+    .p05-upper-photo {
+        height: 155px;
+        margin-top: 71px;
+        background-image: url('./zurich.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .p05-main {
+        display: flex;
+        position: relative;
+        top: -120px;
+        width: 1175px;
+        height: 700px;
+        margin: 0 auto;
+        // border: 1px dashed red;
+
+        .p05-middle-part {
+            // padding-left: 15.5px;
+            width: 620px;
+            // max-width: 700px;
+            // min-width: 400px;
+
+            .p05-user-profile-top {
+                background-color: transparent;
+                color: rgb(255, 255, 255);
+                height: 120px;
+                padding-left: 15.5px;
+
+                .p05-name {
+                    font-size: 24px;
+                    padding-bottom: 7px;
+                }
+
+                .p05-row {
+                    font-size: 18px;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                }
+            }
+
+            .p05-header {
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                background-color: white;
+                padding-left: 15.5px;
+            }
+
+            .p05-user-profile-bottom {
+                background-color: white;
+                padding-left: 15.5px;
+                padding-right: 15.5px;
+
+                .p05-items {
+                    list-style-type: none;
+                    // background-color: white;
+
+                    .p05-item {
+                        border-bottom: 1px solid lightgrey;
+                        padding-bottom: 15px;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .p05-right-part {
+            margin-top: 120px;
+            // background-color: aquamarine;
+            width: 314px;
+            height: 550px;
+            font-size: 20px;
+
+            .p05-rp-name {
+                text-transform: uppercase;
+                padding: 23px 15px 27px 15px;
+                font-weight: 700;
+            }
+
+            .p05-rp-attribute {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-bottom: 25px;
+
+                .p05-rp-label {
+                    text-transform: capitalize;
+                    font-weight: 700;
+                }
+    
+                .p05-rp-value {
+                    font-size: 20px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.restaurant-header {
+    width: 100%;
+    height: 204px;
+    padding: 32px 130px;
+    background-image: url("../../assets/pictures/restaurant_bg1.jpg");
+    background-position: 0 -510px;
+    color: white;
+    font-family: var(--font-default);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+
+    h2{
+        margin-bottom: 13px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    h3{
+        margin-bottom: 13px;
+        font-weight: 300;
+        font-size: 24px;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .reviews{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+
+    .stars {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+
+        img {
+            height: 25px;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.lunaHeader {
+    position: fixed;
+    top: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 71px;
+    // border: 1px dashed red;
+    padding: 0px 30px;
+    // padding-left: 2%;
+    // padding-right: 2%;
+    background-color: white;
+    z-index: 100;
+
+    .navLogo {
+        text-transform: uppercase;
+        font-size: 36px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    .rightPanel {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 590px;
+        font-size: 20px;
+
+        .active {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            font-weight: 700;
+            border-bottom: 2px solid var(--color-orange);
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .not-active {
+            border-bottom: 2px solid rgba(255, 0, 0, 0);
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+
+}

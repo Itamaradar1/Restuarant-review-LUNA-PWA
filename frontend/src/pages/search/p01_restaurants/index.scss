@@ -1,0 +1,107 @@
+.p1-restaurants {
+    width: 100%;
+    height: max-content;
+    background-color: #F2F2F2;
+
+    .p1-header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: white;
+    }
+
+    .p1-search-bar {
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+        position: fixed;
+        top: 71px;
+        width: 100%;
+
+        .p1-search-input {
+            font-size: 20px;
+            height: 55px;
+            width: 100%;
+            outline: none;
+            padding-left: 17.5px;
+            padding-right: 17.5px;
+            border-top: 2px solid var(--color-grey);
+            border-bottom: 1px solid var(--color-grey);
+            border-right: 1px solid var(--color-grey);
+            border-left: 1px solid var(--color-grey);
+            color: grey;
+        }
+    }
+
+    .p1-menu-bar {
+        position: fixed;
+        top: 126px;
+        display: flex;
+        justify-content: center;
+        background-color: #F2F2F2;
+        padding-bottom: 10px;
+        width: 100%;
+
+        .p1-menu {
+            border-bottom: 1px solid lightgrey;
+            margin: 0 auto;
+            max-width: 630px;
+            width: 100%;
+
+            .p1-menu-items {
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+
+                .p1-menu-item {
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding: 25px 20px 11px 20px;
+                    border-bottom: 2px solid rgba(255, 166, 0, 0);
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                .p1-menu-item-active {
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding: 25px 20px 11px 20px;
+                    border-bottom: 2px solid var(--color-orange);
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .p1-middle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 125px;
+
+
+        .p1-middle-board {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            grid-gap: 20px;
+            margin-top: 100px;
+            padding-bottom: 150px;
+        }
+    }
+
+    .p1-footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+    }
+}

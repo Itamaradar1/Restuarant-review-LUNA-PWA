@@ -1,0 +1,114 @@
+.p06-user-profile {
+    width: 100%;
+    height: max-content;
+    padding-bottom: 400px;
+    background-color: #F2F2F2;
+
+    .p06-upper-photo {
+        height: 155px;
+        margin-top: 71px;
+        background-image: url('./zurich.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .p06-main {
+        display: flex;
+        position: relative;
+        top: -120px;
+        width: 1175px;
+        height: 700px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        // border: 1px dashed red;
+
+        .p06-middle-part {
+            // padding-left: 15.5px;
+            width: 620px;
+            // max-width: 700px;
+            // min-width: 400px;
+
+            .p06-user-profile-top {
+                background-color: transparent;
+                color: rgb(255, 255, 255);
+                height: 120px;
+                padding-left: 15.5px;
+
+                .p06-name {
+                    font-size: 24px;
+                    padding-bottom: 7px;
+                }
+
+                .p06-row {
+                    font-size: 18px;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                }
+            }
+
+            .p06-header {
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                background-color: white;
+                padding-left: 15.5px;
+            }
+
+            .p06-user-profile-bottom {
+                background-color: white;
+                padding-left: 15.5px;
+                padding-right: 15.5px;
+
+                .p06-items {
+                    list-style-type: none;
+                    // background-color: white;
+
+                    .p06-item {
+                        border-bottom: 1px solid lightgrey;
+                        padding-bottom: 15px;
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .p06-button-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+            }
+        }
+
+        .p06-right-part {
+            margin-top: 120px;
+            // background-color: aquamarine;
+            width: 314px;
+            height: 550px;
+            font-size: 20px;
+
+            .p06-rp-name {
+                text-transform: uppercase;
+                padding: 23px 15px 27px 15px;
+                font-weight: 700;
+            }
+
+            .p06-rp-attribute {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-bottom: 25px;
+
+                .p06-rp-label {
+                    text-transform: capitalize;
+                    font-weight: 700;
+                }
+    
+                .p06-rp-value {
+                    font-size: 20px;
+                }
+            }
+
+        }
+    }
+}

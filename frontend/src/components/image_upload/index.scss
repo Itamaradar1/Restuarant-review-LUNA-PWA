@@ -1,0 +1,15 @@
+.imageupload{
+    input[type="file"]{
+        display: none;
+    }
+    label{
+        width: 216px;
+        height: 38px;
+        background-color: var(--color-orange);
+        border-radius: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}

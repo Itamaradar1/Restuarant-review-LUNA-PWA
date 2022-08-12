@@ -1,0 +1,27 @@
+.c06-comment-component {
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+    color: black;
+
+    .c06-comment-header {
+        display: flex;
+        justify-content: space-between;
+
+
+        .c06-comment-author {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        .c06-comment-datetime {
+            font-size: 14px;
+        }
+    }
+
+    .c06-comment-text {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+}

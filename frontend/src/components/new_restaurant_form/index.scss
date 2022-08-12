@@ -1,0 +1,140 @@
+.newrestaurantform{
+    
+    height: 100%;
+    padding-top: 2%;
+    
+    .c1-items {
+        width: 10%;
+        border: 1px solid var(--color-grey);
+        padding-inline-start: 0px;
+        list-style-type: none;
+        z-index: 10;
+        position: absolute;
+        background-color: #F2F2F2;
+    
+        .c1-item {
+            margin: 10px 15px;
+            padding: 5px 0px;
+            color: grey;
+            font-size: 20px;
+            border-bottom: 1px solid lightgrey;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .c1-extended-country--part {
+        .c1-items-country{
+            width: 100%;
+            border: 1px solid var(--color-grey);
+            padding-inline-start: 0px;
+            list-style-type: none;
+
+            .c1-item-country {
+                margin: 10px 15px;
+                padding: 5px 0px;
+                color: grey;
+                font-size: 20px;
+                border-bottom: 1px solid lightgrey;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+
+    .c1-extended-part-hidden {
+        display: none;
+    }
+    
+    .c1-extended-country-part-hidden {
+        display: none;
+    }
+
+
+    .c1-arrow-newrestaurant {
+        fill: grey;
+        position: absolute;
+        height: 35px;
+        
+        // margin-right: 15px;
+
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .c1-arrow-country-newrestaurant {
+        fill: grey;
+        position: absolute;
+        height: 35px;
+        
+        // margin-right: 15px;
+
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+
+
+    h4{
+        font-family: "Karla";
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: var(--font-grey);
+        font-weight: 700;
+        // margin-bottom: 16px;
+    }
+
+
+    h5{
+        
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: var(--font-lighter-grey);
+        font-weight: 700;
+        // margin-bottom: 16px;
+    }
+
+    input[type=text] {
+        width: 27%;
+        min-width: 387px;
+        height: 52px;
+        outline: none;
+        color: var(--font-lighter-grey);
+        border: solid 1px var(--color-grey);
+        border-radius: 3px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: 700;
+        font-size: 20px;
+        // margin: 0 0 51px 0;
+        font-family: var(--font-default);
+
+    }
+    
+    input[type="file"]{
+        display: none;
+    }
+    label{
+        width: 216px;
+        height: 38px;
+        background-color: var(--color-orange);
+        border-radius: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+

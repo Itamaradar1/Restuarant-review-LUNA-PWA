@@ -1,0 +1,27 @@
+.c07-review-component {
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+    color: black;
+
+    .c07-review-header {
+        display: flex;
+        justify-content: space-between;
+
+
+        .c07-review-author {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        .c07-review-datetime {
+            font-size: 14px;
+        }
+    }
+
+    .c07-review-text {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+}

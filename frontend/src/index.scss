@@ -1,0 +1,14 @@
+:root {
+  --color-orange: #E47D31;
+  --color-grey: rgba(189, 189, 189, 1.0);
+  --font-grey: #4C4C4C;
+  --font-lighter-grey: #979797;
+  --font-default: Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-default);
+}

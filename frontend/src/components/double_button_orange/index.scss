@@ -1,0 +1,56 @@
+.double_button_orange {
+    width: 200px;
+    height: 41px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background-color: var(--color-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        .left-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 85px;
+        }
+
+        .logo {
+            height: 21px;
+        }
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        .right-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 95px;
+        }
+
+        border-left: solid 1px white;
+    }
+
+    p{
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
